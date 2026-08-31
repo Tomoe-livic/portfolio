@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
-    </head>
+<html lang="it">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Qui tengo tutte le nozioni acquisite e i progetti creati">
     <link rel="stylesheet" href="stile.css">
+    <script src="script.js" defer></script>
     <title>Il mio portfolio</title>
 </head>
 
@@ -11,19 +13,22 @@
 
     <header id="chi-sono">
         <h1>Ciao, sono Vincenzo Li Greci</h1>
-
-        <p>Sto studiando AI Web development presso l'omonimo corso tenuto da <span><b>Boolean</b></span>.
-            <br>Qui di seguito vedrete le competenze che ho acquisito come autodidatta nel periodo precedente alla mia iscrizione al sudetto corso.</p>
+        <nav>
+        <p> Ho 25 anni e sto studiando AI Web development presso l'omonimo corso tenuto da <span><strong>Boolean</strong></span>. Ho però iniziato a studiare in quanto autodidatta il 19 Agosto del 2026, facendo uso di vari learning tool (e tanto altro) con lo scopo di agevolare la mia istruzione per il master in questione.
+            <br>Qui di seguito vedrete le <a href="#competenze">competenze</a> che ho acquisito in questo periodo di totale autogestione, i <a href="#progetti">progetti</a> a cui mi sono dedicato e i <a href="#strumenti">tool</a> su i quali ho fatto affidamento.</p>
+            <p>Qualora inoltre foste interessati a contattarmi, in questo sito vi fornisco anche i miei <a href="#contatti">contatti</a>.</p>
+        </nav>
         </header>
 
         <main>
             <section id="competenze">
                 <h2>Cosa so fare (finora)</h2>
-
+                <hr>
                 <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Conosco le basi di Ruby</li>
+                    <li><abbr title="HyperText Markup Language">HTML</abbr></li>
+                    <li><abbr title="Cascading Style Sheet">CSS</abbr></li>
+                    <li>JavaScript</li>
+                    <li><abbr title="Ruby Game Scripting Sistem">RGSS</abbr>, framework di programmazione per la creazione di <abbr title="Role-Playing Game">RPG</abbr> in 2D</li>
                 </ul>
             </section>
 
@@ -38,22 +43,29 @@
                     </div>
 
                     <div class="progetto">
-                        <h3>Un gioco su RPGMakerXP</h3>
-                        
-                        <p>All'età di 17 anni ho iniziato un lunghissimo percorso con RPGMakerXP, apprendendo in maniera empirica il linguaggio di Ruby iniziando poi a sviluppare un gioco attualmente non ancora completo.</p>
+                        <h3>Gioco narrativo in JavaScript</h3>
+                        <p><em>In arrivo</em> — un mini gioco a stampo narrativo, il prossimo progetto che costruirò una volta consolidato JavaScript.</p>
                     </div>
                 </div>
+            </section>
+            <section id="strumenti">
+                <h2>Tool</h2>
+                <hr>
+                <ol id="lista-strumenti"></ol>
             </section>
         </main>
 
         <footer id="contatti">
             <h2>Contattami</h2>
+            <address>
             <div class="riga-contatti">
 
-                <p><b>E-mail</b>:livic01@hotmail.it</p>
-                <p><b>GitHub</b>: <i>Ancora non ne possiedo uno</i></p>
+                <p><b>E-mail</b>: <a href="mailto:livic01@hotmail.it">livic01@hotmail.it</a></p>
+                <p><b>GitHub</b>: <a href="https://github.com/Tomoe-livic" target="_blank" rel="noopener noreferrer">Tomoe-livic</a></p>
             </div>
+            </address>
         </footer>
+        
 
 </body>
 </html>

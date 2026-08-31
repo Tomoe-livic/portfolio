@@ -2,6 +2,22 @@
   box-sizing: border-box;
 }
 
+a:link {
+  color:#b9b9b9
+}
+
+a:visited {
+  color:#1100f8
+}
+
+a:hover {
+  color:#ffffff
+}
+
+a:active {
+  color:#40c916
+}
+
 body {
 background-color: #27D3F5;
 padding: 20px;
@@ -13,7 +29,7 @@ span {
 color: darkorange;
 }
 
-#chi-sono, #competenze, #progetti, #contatti {
+#chi-sono, #competenze, #progetti, #contatti, #strumenti {
 background-color: #AE51CD;
 border: 4px solid #333;
 padding: 10px;
